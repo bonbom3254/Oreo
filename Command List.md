@@ -831,12 +831,12 @@ Name: `?vcinvite`<br>
 Description: Gives a user permission to join a custom VC.<br>
 Usage: `?vcinvite <user:mention/id>`<br>❯ Name: ?vckick
 Description: Revokes a user's permissions to join a custom VC.
-Usage: ?vckick <user:mention/id>
+Usage: `?vckick <user:mention/id>`
  <br>
  <br>
  Name: `?vckick`<br>
 Description: Revokes a user's permissions to join a custom VC.<br>
-Usage: ?vckick <user:mention/id><br>
+Usage: `?vckick <user:mention/id>`<br>
  <br>
  <br>
  
@@ -845,12 +845,12 @@ Usage: ?vckick <user:mention/id><br>
  
 Name: `?vcmute`<br>
 Description: Mutes a user connected to a custom VC, if there is no user mentioned the the entire custom VC will be muted.<br>
-Usage: ?vcmute [user:mention/id]<br>
+Usage: `?vcmute [user:mention/id]`<br>
  <br>
  <br>
 Name: `?vcname`<br>
 Description: Renames a custom VC.<br>
-Usage: ?vcname <name:text><br>
+Usage: `?vcname <name:text>`<br>
  <br>
  <br>
 Name: `?vcreset`<br>
@@ -858,7 +858,7 @@ Description: Reverts custom VC to default settings.<br>
  <br><br>
 Name: `?vcsize`<br>
 Description: Changes the max amount of users can connect to a custom VC.<br>
-Usage: ?vcsize <Number:0-99><br>
+Usage: `?vcsize <Number:0-99>`<br>
  <br><br>
 Name: `?vcunlock`<br>
 Description: Unlocks a custom VC, allowing any user to join.<br>
