@@ -528,7 +528,31 @@ Clears all stream settings.
 
 <details>
   <summary> Middleman [5] </summary>
-  Empty
+Name: `?middleman-cancel`   <br>
+Aliases: `?mmcancel`  <br>
+Description: Cancel your middleman request. <br>
+Premium: True
+  <br>
+  <br>
+Name: `?middleman-close`<br>
+Aliases: `?mmclose`<br>
+Description: Close a middleman request channel<br>
+Premium: True<br>
+ <br>
+ <br>
+Name: `?middleman-leaderboard`<br>
+Aliases: `?mmlb` , `?middlemanlb`<br>
+Description: Middleman leaderboard
+ <br>
+ <br>
+Name:  `?middleman-templeaderboard` <br>
+Aliases: `?mmtemplb` , `?middlemantemplb` , `?mmtlb` <br>
+Description: Middleman temporary leaderboard which can be used for weekly quotas. <br>
+Premium: True
+ 
+ 
+ 
+ 
 </details>
 
 <details>
