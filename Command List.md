@@ -88,11 +88,36 @@ Tip: Oreo must be in the server the emoji is from and you must run the command i
 <br>
 
 
+Name: `?setup-previousban`<br>
+Aliases: `?spb`<br>
+Description: Manages Oreo's behavior towards previously banned members.<br>
+Premium: True<br><br>
+ 
+ Example: `?setup-previousban  {option}`<br><br>
 
+track<br>
+Toggle whether or not Oreo should track unbanned users<br><br>
 
- Name: ?setmutedrole
- Description: Sets the muted role for further moderation purposes.
- Usage: ?setmutedrole [color:name/hex]
+role <br>
+Assigns unbanned members a specific role.<br><br>
+
+auto-assign<br>  
+Toggle whether or not Oreo should auto assign the unbanned role to users<br><br>
+
+add  <user:mention/ID> <Reason><br>
+Adds a specific user to the database<br><br>
+
+delete  <user:mention/ID><br>
+Removes a specific user from the database<br>
+<br>
+clear <br>
+Deletes all saved unban data indefinitely.<br>
+
+ <br><br>
+
+ Name: `?setmutedrole` <br>
+ Description: Sets the muted role for further moderation purposes. <br>
+ Usage: `?setmutedrole [color:name/hex]`
 
 <br>
 <br>
@@ -526,6 +551,14 @@ Clears all stream settings.
  Example: `?botclear 30` 
 <br>
 <br>
+ 
+Name: `?previousban`
+Aliases: `?pb`
+Description: Fetches a user's ban reason prior to being unbanned.
+Usage: ?previousban [user:mention/ID]
+Premium: True
+<br>
+ <br>
  Name: `?clear` <br>
  Aliases: `?sweep` , `?purge` <br>
  Description: Deletes multiple messages instantly. Using `-nopin` will ignore pinned messages. Range is 1-100. <br>
