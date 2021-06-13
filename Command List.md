@@ -90,7 +90,9 @@ Tip: Oreo must be in the server the emoji is from and you must run the command i
 
 
 
-setmuted  
+ Name: ?setmutedrole
+ Description: Sets the muted role for further moderation purposes.
+ Usage: ?setmutedrole [color:name/hex]
 
 <br>
 <br>
@@ -683,7 +685,12 @@ clearresponse
  Usage: `?remove <user:mention/ID>,<user:mention/ID>....`
 <br>
 <br>
-rename 
+ 
+ 
+ ❯ Name:  `?rename`
+❯ Aliases: `?r`
+❯ Description: Renames a ticket.
+❯ Usage: ?rename <channel_name>
 <br>
 <br>
  Name: `?ticket-leaderboard`<br>
