@@ -821,6 +821,57 @@ Supported languages: `en`, `en-uk`, `en-us`, `en-in`, `en-au`, `en-ng`, `nl`, `d
 
 <details>
   <summary> Voice [11]  </summary> 
-  
+
+Name: `?vchost`<br>
+Description: Shows who is currently hosting the custom VC and transfers host if a user is mentioned.<br>
+Usage: `?vchost [user:mention/id]`<br>
+ <br>
+ <br>
+Name: `?vcinvite`<br>
+Description: Gives a user permission to join a custom VC.<br>
+Usage: `?vcinvite <user:mention/id>`<br>❯ Name: ?vckick
+Description: Revokes a user's permissions to join a custom VC.
+Usage: ?vckick <user:mention/id>
+ <br>
+ <br>
+ Name: `?vckick`<br>
+Description: Revokes a user's permissions to join a custom VC.<br>
+Usage: ?vckick <user:mention/id><br>
+ <br>
+ <br>
+ 
+ Name: `?vclock`<br>
+ Description: Locks a custom VC, preventing uninvited users from joining<br>
+ 
+Name: `?vcmute`<br>
+Description: Mutes a user connected to a custom VC, if there is no user mentioned the the entire custom VC will be muted.<br>
+Usage: ?vcmute [user:mention/id]<br>
+ <br>
+ <br>
+Name: `?vcname`<br>
+Description: Renames a custom VC.<br>
+Usage: ?vcname <name:text><br>
+ <br>
+ <br>
+Name: `?vcreset`<br>
+Description: Reverts custom VC to default settings.<br>
+ <br><br>
+Name: `?vcsize`<br>
+Description: Changes the max amount of users can connect to a custom VC.<br>
+Usage: ?vcsize <Number:0-99><br>
+ <br><br>
+Name: `?vcunlock`<br>
+Description: Unlocks a custom VC, allowing any user to join.<br>
+ <br><br>
+Name: `?vcunmute`<br>
+Description: Unmutes a user connected to a custom VC, if there is no user mentioned the the entire custom VC will be unmuted.<br>
+Usage: `?vcunmute [user:mention/id]`<br>
+ <br><br>
+Name: `?vcvotekick`<br>
+Description: Starts a vote kick.<br>
+Usage: `?vcvotekick <user:mention/id>`
+ 
   </details> 
   
+
+ 
