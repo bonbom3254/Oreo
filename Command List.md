@@ -7,7 +7,7 @@ Full command list for Oreo, with Name, description, aliases, usage and few examp
 
 
 <details>
-<summary> Config [15] </summary> 
+<summary> Config [16] </summary> 
 
  Name: `?Autorole` <br>
  Description: Automatically gives new members one or multiple roles upon joining the guild. <br>
@@ -485,7 +485,7 @@ Clears all stream settings.
 </details>
  
 <details>
- <summary> Info [8] </summary>
+ <summary> Info [7] </summary>
  
  Name: `?donate` <br>
  Aliases: `?patreon` , `?premium` <br>
@@ -522,10 +522,6 @@ Clears all stream settings.
  Description: Measures Oreo's real-time network connection in milliseconds. <br>
  <br>
  <br>
- Name: `?stats` <br>
- Description: Oreo's global statistics. <br>
- <br>
- <br>
  Name: `?uptime` <br>
  Description: Oreo's current runtime. <br>
   </details>
@@ -536,7 +532,7 @@ Clears all stream settings.
 </details>
 
 <details>
-  <summary> Moderation [17] </summary>
+  <summary> Moderation [18] </summary>
   
  Name: `?ban` <br>
  Aliases: `?hammer`  <br>
@@ -658,7 +654,10 @@ Premium: True
  Usage: `?approve <messageID> [response]`
 <br>
 <br>
-clearresponse 
+Name: `?clearresponse`<br>
+Aliases: `?clearres`<br>
+Description: Deletes any responses from a suggestion using the Message ID (sID). You can find the sID in the footer of any suggestion.<br>
+Usage: `?clearresponse <messageID> [response]`
 <br>
 <br>
  Name: `?reject`<br>
@@ -674,7 +673,7 @@ clearresponse
  Examples: `?suggest I am writing a random suggestion right now.`
 <br>
 <br>
- Name: `?suggestion-leaderboard`<br>
+ Name: `?suggestion-leaderboard <br>
  Aliases: `?suggestlb` , `?slb`<br>
  Description: Suggestion leaderboard<br>
  Premium: True
@@ -719,13 +718,12 @@ clearresponse
 <br>
 <br>
  
- 
- ❯ Name:  `?rename`
-❯ Aliases: `?r`
-❯ Description: Renames a ticket.
-❯ Usage: ?rename <channel_name>
+Name:  `?rename`<br>
+Aliases: `?r`<br>
+Description: Renames a ticket.<br>
+Usage: ?rename <channel_name>
 <br>
-<br>
+<br><br>
  Name: `?ticket-leaderboard`<br>
  Aliases: `?tlb` , `?ticketlb`<br>
  Description: Ticket leaderboard<br>
